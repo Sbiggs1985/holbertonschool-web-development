@@ -22,7 +22,7 @@
   <li>The code should be W3C compliant and validated.</li>
 </ul>
 <hr>
-<h3>Learning Objective</h3>
+<h3>Learning Objective &#10230;</h3>
 <ol>
   <li>What is HTML</li>
   <li>How to create an HTML page from a wireframe</li>
