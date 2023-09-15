@@ -1,7 +1,7 @@
 HTML, Advanced
 <hr>
 <div>
-  <span>&#128194;</span> Specializations - Web Stack programming | Back-End<br>
+  <span>&#128188;</span> Specializations - Web Stack programming | Back-End<br>
   <span>&#169;</span> Holberton School
 </div>
 <hr>
