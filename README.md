@@ -1,7 +1,6 @@
 HTML, Advanced
 <hr>
 <p> Specializations - Web Stack Programming | Font End | Back End |</p>
-<p> Stephaine Biggs, Full Stack Student @ Holberton</p>
 <p>HTML | DOM | Markup Language |</p>
 <hr>
 <ul>
