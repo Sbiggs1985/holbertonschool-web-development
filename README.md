@@ -1,4 +1,4 @@
-HTML, Advanced
+<h2>HTML Advanced</h2>
 <hr>
 <div>
   <span>&#128188;</span> Specializations - Web Stack Programming | Back-End<br>
@@ -12,3 +12,23 @@ HTML, Advanced
   <li>And “Duplicate to your Drafts” to have access to all design details.
 </li>
 </ul>
+<hr>
+
+General
+<ul>
+  <li>All Files should end with a new line.</li>
+  <li>A README.md file, at the root of the folder of the project.</li>
+  <li>No imported or external files.</li>
+  <li>The code should be W3C compliant and validated.</li>
+</ul>
+<hr>
+Learning Objective
+<ol>
+  <li>What is HTML</li>
+  <li>How to create an HTML page from a wireframe</li>
+  <li>What is aa markup language</li>
+  <li>What is the DOM</li>
+  <li>What is an element/tag</li>
+  <li>What is an attribute</li>
+  <li>What the purpose of each HTML tag</li>
+</ol>
