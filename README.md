@@ -5,6 +5,8 @@
   <span>&#128218;</span> Holberton School
 </div>
 <hr>
+<p> &#9672; HTML | Document Object Model | Markup Language | </p>
+<hr>
 <ul>
   <li>I will implement from scratch a webpage from a designer file.</li>
   <li>Focus on the HTML structure only</li>
