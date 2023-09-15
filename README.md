@@ -4,7 +4,7 @@ HTML, Advanced
   <span>&#128194;</span> Specializations - Web Stack programming | Back-End<br>
   <span>&#169;</span> Holberton School
 </div>
-
+<hr>
 <ul>
   <li>I will implement from scratch a webpage from a designer file.</li>
   <li>Focus on the HTML structure only</li>
