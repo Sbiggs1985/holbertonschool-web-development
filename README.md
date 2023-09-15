@@ -5,6 +5,7 @@
   <span>&#128218;</span> Holberton School
 </div>
 <hr>
+<h2>Tasks</h2>
 <ul>
   <li>I will implement from scratch a webpage from a designer file.</li>
   <li>Focus on the HTML structure only</li>
