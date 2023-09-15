@@ -14,7 +14,7 @@
 </ul>
 <hr>
 
-<h3>General</h3>
+<h3>General &#10230;</h3>
 <ul>
   <li>All Files should end with a new line.</li>
   <li>A README.md file, at the root of the folder of the project.</li>
