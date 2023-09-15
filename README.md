@@ -14,7 +14,7 @@
 </ul>
 <hr>
 
-General
+<h3>General</h3>
 <ul>
   <li>All Files should end with a new line.</li>
   <li>A README.md file, at the root of the folder of the project.</li>
@@ -22,7 +22,7 @@ General
   <li>The code should be W3C compliant and validated.</li>
 </ul>
 <hr>
-Learning Objective
+<h3>Learning Objective</h3>
 <ol>
   <li>What is HTML</li>
   <li>How to create an HTML page from a wireframe</li>
