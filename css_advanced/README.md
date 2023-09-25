@@ -14,4 +14,3 @@
   <li>What are Box properties in CSS</li>
   <li>How does the browser load a webpage</li>
 </ul>
-<hr>
