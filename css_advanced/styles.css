@@ -1,0 +1,143 @@
+.top-dark-section {
+    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000;
+    background-blend-mode: normal, color;
+    width: 1448.15px;
+    height: 1055px;
+    flex-shrink: 0;
+}
+
+.phillip-massey {
+    width: 167.016px;
+    height: 29.461px;
+    flex-shrink: 0;
+}
+
+.courses-link {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pricing-link {
+    color: #FFF;
+font-family: Source Sans Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.login-link {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.get-schooled {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.smiles-section1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.grin-section1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.laugh-section1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Learn-from-the-pros {
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.register-for-free-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+/* This is the PURPLE section */
+.purple-section {
+    width: 1440px;
+    height: 392px;
+    fill: #c271ff;
+}
+
+.popular-tutorials-section {
+    width: 1440px;
+    height: 3718px;
+    background: #FFF;
+}
+
+.free-membership-section {
+    fill: #071629;
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+}
+
+.faqs-section {
+    background: #FFF;
+    width: 1440px;
+    height: 249px;
+    flex-shrink: 0;
+}
+
+footer {
+    background-color: #071629;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
