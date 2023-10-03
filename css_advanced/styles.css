@@ -1,15 +1,64 @@
+html, body {
+    min-height: 100%;
+}
+
+/* SECTION ONE */
 .top-dark-section {
     background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000;
     background-blend-mode: normal, color;
-    width: 1448.15px;
+    width: 1440px;
     height: 1055px;
     flex-shrink: 0;
 }
 
+.course-pricing-link-section {
+    position: fixed;
+    top: 10px; 
+    right: 10px;
+    z-index: 999; /* Ensure it's displayed above other elements */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.course-pricing-link-section span {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
 .phillip-massey {
-    width: 167.016px;
-    height: 29.461px;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+Assets
+    width: 150px;
+    height: 150px;
     flex-shrink: 0;
+    border-radius: 70px;
+}
+
+.nannie-lawrence {
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+Assets
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 70px;
+}
+
+.bruce-walters {
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+Assets
+    width: 150px;
+    height: 149.85px;
+    flex-shrink: 0;
+    border-radius: 70px;
+}
+
+.henry-hughes {
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+Assets
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 70px;
 }
 
 .courses-link {
@@ -49,34 +98,10 @@ line-height: normal;
     line-height: normal;
 }
 
-.smiles-section1 {
-    color: #FFF;
+.link-block {
     text-align: center;
-    font-family: Source Sans Pro;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.grin-section1 {
+    margin: 0 10px;
     color: #FFF;
-    text-align: center;
-    font-family: Source Sans Pro;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.laugh-section1 {
-    color: #FFF;
-    text-align: center;
-    font-family: Source Sans Pro;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .Learn-from-the-pros {
@@ -90,17 +115,37 @@ line-height: normal;
 }
 
 .register-for-free-button {
-    color: #FFF;
-    text-align: center;
-    font-family: Source Sans Pro;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    display: block; /* Make it a block-level element to push it below the links */
+    margin: 20px auto; /* Center the button horizontally and add spacing below */
+    padding: 10px 20px; /* Add padding for better visual appearance */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 50% / 120px; /* Add some border radius for rounded corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Hover effect for the button */
+.register-for-free-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
 }
 
 
+/* ************ */
+/* This is for the sub-block section with Nannie, Henry, etc */
+.block {
+    color: #FFF;
+    display: flex; /* Use Flexbox for a row layout */
+    flex-wrap: wrap; /* Allow sub-blocks to wrap to the next row if needed */
+    justify-content: space-between; /* Distribute space between sub-blocks */
+}
 
+.sub-block {
+    width: calc(25% - 20px); /* Adjust the width to fit four sub-blocks per row with spacing */
+    padding: 10px; /* Add spacing around sub-blocks */
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Add margin between sub-blocks */
+}
 
 
 
@@ -112,9 +157,42 @@ line-height: normal;
 .purple-section {
     width: 1440px;
     height: 392px;
-    fill: #c271ff;
+    flex-shrink: 0;
+    background-color: #C271FF;
+    text-align: center;
+     overflow: hidden;
+     position: relative;
 }
 
+.quote-block {
+    width: 100%;
+    align-items: center; /* Center vertically */
+}
+
+.purple-quote-guy {
+    max-width: 100%;
+    height: auto;
+    top: 0%;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.quote-author-block {
+    flex-grow: 1;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    height: 100%;
+}
+
+
+
+
+/* Seperate section */
 .popular-tutorials-section {
     width: 1440px;
     height: 3718px;
@@ -122,7 +200,7 @@ line-height: normal;
 }
 
 .free-membership-section {
-    fill: #071629;
+    background-color: rgb(7, 7, 56);
     width: 1440px;
     height: 502px;
     flex-shrink: 0;
@@ -131,13 +209,101 @@ line-height: normal;
 .faqs-section {
     background: #FFF;
     width: 1440px;
-    height: 249px;
+    height: 800px;
+}
+
+
+
+
+
+/* TUTORIALS */
+.tutorial-block {
+    display: flex; /* Use Flexbox for a row layout */
+    justify-content: space-between;
+    background: #FFF;
+}
+
+.tutorial-sub-block {
+    width: calc(25% - 10px); /* Adjust the width to fit four sub-blocks per row with spacing */
+    padding: 10px; /* Add spacing around sub-blocks */
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Add margin between sub-blocks */
+    margin-right: 5px;
+}
+
+.diagonal-smile {
+    width: 150px;
+    height: 150px;
     flex-shrink: 0;
 }
 
+.sad-smile {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.natural-smile {
+    width: 150px;
+    height: 149.85px;
+    flex-shrink: 0;
+}
+
+.happy-smile {
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.most-popular-tutorials-title {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.purple-word {
+    color: purple;
+    font-weight: bold;
+}
+
+.star-phillip {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.star-phillip,
+.next-to-phillip {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER SECTION */
 footer {
     background-color: #071629;
     color: #fff;
     text-align: center;
     padding: 10px;
+    width: 1440px;
+    height: 249px;
+    flex-shrink: 0;
+}
+
+.footer-image {
+    
 }
