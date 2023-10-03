@@ -13,16 +13,17 @@ html, body {
 
 .course-pricing-link-section {
     position: fixed;
-    top: 10px; 
-    right: 10px;
-    z-index: 999; /* Ensure it's displayed above other elements */
-    padding: 5px 10px;
-    border-radius: 5px;
+    top: 0px; 
+    right: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .course-pricing-link-section span {
     margin-left: 10px;
-    text-decoration: none;
+    font-weight: bold;
+    color:#FFF;
 }
 
 .phillip-massey {
@@ -156,7 +157,7 @@ line-height: normal;
 /* This is the PURPLE section */
 .purple-section {
     width: 1440px;
-    height: 200px;
+    height: 350px;
     flex-shrink: 0;
     background-color: #C271FF;
     text-align: center;
@@ -372,11 +373,127 @@ line-height: normal;
 /* FREE MEMBERSHIP section */
 .free-membership-section {
     background-color: #071629;
+    color: #FFF
     padding: 20px;
     text-align: center;
     height: 502px;
 }
 
+.free-word {
+    font-weight: bold;
+    color: purple;
+}
+
+/* STAY */
+.free-membership-header {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Source Sans Pro;
+}
+/* DO NOT TOUCH ABOVE */
+
+
+/* Free membership section Flexbox LOOKS AMAZING*/
+.free-membership-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.free-membership-section-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin-top: 20px; /* Add margin between items and button */
+}
+
+.item {
+    width: calc(25% - 20px); /* Adjust the width to fit four items per row with spacing */
+    margin-bottom: 20px; /* Add margin between items */
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item {
+    margin-top: 10px; /* Add spacing between image and text */
+    text-align: center;
+    color: #FFF
+
+}
+
+.membership-section-button {
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 22px;
+    background: #C271FF;
+
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    font-family: Source Sans Pro;
+    text-align: center;
+}
+/* End of Flexbox */
+
+/* Smile image under Free membership section */
+.smile-image-membership {
+    width: 43.666px;
+    height: 35.353px;
+    flex-shrink: 0;
+}
+
+
+
+
+/* FAQ CSS BELOW */
+.faq-h1-heading {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.faq-question {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.faq-text {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+}
+
+/* FAQ ROW/FLEXBOX TO MAKE TWO ROWS OF QUESTIONS */
+.faq-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    padding: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow: hidden; /* Ensure content does not overflow */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text within the container */
+}
 
 
 
@@ -385,31 +502,30 @@ footer {
     background-color: #071629;
     color: #fff;
     text-align: center;
-    padding: 10px;
-    width: 1440px;
-    height: 249px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
     flex-shrink: 0;
+    align-items: center;
 }
 
-.free-word {
-    font-weight: bold;
-    color: purple;
-}
-
-.free-membership-header {
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
+.trademark {
+    color: #FFF;
     font-family: Source Sans Pro;
-
+    font-size: 12px;
+    font-style: normal;
+    line-height: 30px;
+    opacity: 0.3517;
 }
 
+.social-media-images {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
-
-
-
-
-
-.footer-image {
-    
+.social-media-image {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
 }
