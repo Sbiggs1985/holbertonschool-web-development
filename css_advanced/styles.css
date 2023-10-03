@@ -156,12 +156,12 @@ line-height: normal;
 /* This is the PURPLE section */
 .purple-section {
     width: 1440px;
-    height: 392px;
+    height: 200px;
     flex-shrink: 0;
     background-color: #C271FF;
     text-align: center;
-     overflow: hidden;
-     position: relative;
+    overflow: hidden;
+    position: relative;
 }
 
 .quote-block {
@@ -192,31 +192,16 @@ line-height: normal;
 
 
 
-/* Seperate section */
-.popular-tutorials-section {
-    width: 1440px;
-    height: 3718px;
-    background: #FFF;
-}
-
-.free-membership-section {
-    background-color: rgb(7, 7, 56);
-    width: 1440px;
-    height: 502px;
-    flex-shrink: 0;
-}
-
-.faqs-section {
-    background: #FFF;
-    width: 1440px;
-    height: 800px;
-}
-
-
 
 
 
 /* TUTORIALS */
+.popular-tutorials-section {
+    width: 1440px;
+    height: cal(50% - 200px);
+    background: #FFF;
+}
+
 .tutorial-block {
     display: flex; /* Use Flexbox for a row layout */
     justify-content: space-between;
@@ -273,6 +258,7 @@ line-height: normal;
     width: 30px;
     height: 30px;
     flex-shrink: 0;
+    border-radius: 50px;
 }
 
 .image-container {
@@ -285,10 +271,111 @@ line-height: normal;
     margin: 10px;
 }
 
+.image-joined {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* diagonal smile div to join image & play button */
+.diagonal-smile {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the play button */
+    /* Adjust width and height as needed */
+    width: 50px;
+    height: 50px;
+}
+/* END of diagonal smile div joined image */
 
 
 
 
+/* sad mile div to join image & button */
+.image-joined-2 {
+    position: relative;
+    display: inline-block;
+}
+
+.diagonal-smile {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the play button */
+    /* Adjust width and height as needed */
+    width: 50px;
+    height: 50px;
+}
+/* END of sad smile div joined image */
+
+
+
+/* Natural smile div to join image & button */
+.image-joined-3 {
+    position: relative;
+    display: inline-block;
+}
+
+.diagonal-smile {
+    max-width: 100%;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+}
+/* END natural smile div joined image */
+
+
+
+
+/* ***************************************************************/
+/* Happy smile div to join image & button */
+.image-joined-4 {
+    position: relative;
+    display: inline-block;
+}
+
+.diagonal-smile {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the play button */
+    /* Adjust width and height as needed */
+    width: 50px;
+    height: 50px;
+}
+/* END of happy smile div joined image */
+
+
+
+
+
+
+/* FREE MEMBERSHIP section */
+.free-membership-section {
+    background-color: #071629;
+    padding: 20px;
+    text-align: center;
+    height: 502px;
+}
 
 
 
@@ -303,6 +390,25 @@ footer {
     height: 249px;
     flex-shrink: 0;
 }
+
+.free-word {
+    font-weight: bold;
+    color: purple;
+}
+
+.free-membership-header {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Source Sans Pro;
+
+}
+
+
+
+
+
+
 
 .footer-image {
     
