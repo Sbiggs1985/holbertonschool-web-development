@@ -6,7 +6,7 @@ html, body {
 .top-dark-section {
     background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000;
     background-blend-mode: normal, color;
-    width: 1440px;
+    min-width: 1440px;
     height: 1055px;
     flex-shrink: 0;
 }
@@ -116,36 +116,35 @@ line-height: normal;
 }
 
 .register-for-free-button {
-    display: block; /* Make it a block-level element to push it below the links */
-    margin: 20px auto; /* Center the button horizontally and add spacing below */
-    padding: 10px 20px; /* Add padding for better visual appearance */
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Text color */
-    border: none; /* Remove border */
-    border-radius: 50% / 120px; /* Add some border radius for rounded corners */
-    cursor: pointer; /* Show a pointer cursor on hover */
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50% / 120px;
+    cursor: pointer;
 }
 
 /* Hover effect for the button */
 .register-for-free-button:hover {
-    background-color: #0056b3; /* Change background color on hover */
+    background-color: #0056b3;
 }
 
 
 /* ************ */
-/* This is for the sub-block section with Nannie, Henry, etc */
 .block {
     color: #FFF;
-    display: flex; /* Use Flexbox for a row layout */
-    flex-wrap: wrap; /* Allow sub-blocks to wrap to the next row if needed */
-    justify-content: space-between; /* Distribute space between sub-blocks */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .sub-block {
-    width: calc(25% - 20px); /* Adjust the width to fit four sub-blocks per row with spacing */
-    padding: 10px; /* Add spacing around sub-blocks */
-    text-align: center; /* Center text */
-    margin-bottom: 20px; /* Add margin between sub-blocks */
+    width: calc(25% - 20px);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -156,7 +155,6 @@ line-height: normal;
 
 /* This is the PURPLE section */
 .purple-section {
-    width: 1440px;
     height: 350px;
     flex-shrink: 0;
     background-color: #C271FF;
@@ -167,7 +165,7 @@ line-height: normal;
 
 .quote-block {
     width: 100%;
-    align-items: center; /* Center vertically */
+    align-items: center;
 }
 
 .purple-quote-guy {
@@ -198,22 +196,21 @@ line-height: normal;
 
 /* TUTORIALS */
 .popular-tutorials-section {
-    width: 1440px;
     height: cal(50% - 200px);
     background: #FFF;
 }
 
 .tutorial-block {
-    display: flex; /* Use Flexbox for a row layout */
+    display: flex;
     justify-content: space-between;
     background: #FFF;
 }
 
 .tutorial-sub-block {
-    width: calc(25% - 10px); /* Adjust the width to fit four sub-blocks per row with spacing */
-    padding: 10px; /* Add spacing around sub-blocks */
-    text-align: center; /* Center text */
-    margin-bottom: 20px; /* Add margin between sub-blocks */
+    width: calc(25% - 10px);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
     margin-right: 5px;
 }
 
@@ -280,15 +277,14 @@ line-height: normal;
 
 /* diagonal smile div to join image & play button */
 .diagonal-smile {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-width: 100%;
 }
 
 .play-button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the play button */
-    /* Adjust width and height as needed */
+    transform: translate(-50%, -50%);
     width: 50px;
     height: 50px;
 }
@@ -304,15 +300,14 @@ line-height: normal;
 }
 
 .diagonal-smile {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-width: 100%;
 }
 
 .play-button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the play button */
-    /* Adjust width and height as needed */
+    transform: translate(-50%, -50%);
     width: 50px;
     height: 50px;
 }
@@ -351,15 +346,14 @@ line-height: normal;
 }
 
 .diagonal-smile {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-width: 100%;
 }
 
 .play-button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the play button */
-    /* Adjust width and height as needed */
+    transform: translate(-50%, -50%);
     width: 50px;
     height: 50px;
 }
@@ -406,13 +400,13 @@ line-height: normal;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 800px; /* Adjust the maximum width as needed */
-    margin-top: 20px; /* Add margin between items and button */
+    max-width: 800px;
+    margin-top: 20px;
 }
 
 .item {
-    width: calc(25% - 20px); /* Adjust the width to fit four items per row with spacing */
-    margin-bottom: 20px; /* Add margin between items */
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -422,7 +416,7 @@ line-height: normal;
 }
 
 .item {
-    margin-top: 10px; /* Add spacing between image and text */
+    margin-top: 10px;
     text-align: center;
     color: #FFF
 
@@ -475,12 +469,14 @@ line-height: normal;
     color: rgba(7, 22, 41, 0.50);
     font-family: Source Sans Pro;
     font-size: 14px;
+    text-wrap: wrap;
+    width: 21.875rem;
 }
 
 /* FAQ ROW/FLEXBOX TO MAKE TWO ROWS OF QUESTIONS */
 .faq-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 20px;
 }
 
@@ -488,11 +484,11 @@ line-height: normal;
     padding: 10px;
     margin-bottom: 20px;
     padding: 15px;
-    overflow: hidden; /* Ensure content does not overflow */
+    overflow: hidden;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center; /* Center text within the container */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 
