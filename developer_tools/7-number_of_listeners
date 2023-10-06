@@ -1,15 +1,1 @@
-There are 11 Event Listeners
-
-blur
-click
-focus
-focusin
-focusout
-input
-keydown
-keyup
-load
-propertychange
-scroll
-
-I found this through the Elements tab, under Event Listeners.
+9
